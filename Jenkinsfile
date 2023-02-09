@@ -21,8 +21,8 @@ pipeline {
   environment {
     DEMO_URL = "google.com"
     SSH = credentials('CENTOS_SSH')
-    AWS_ACCESS_KEY_ID=credentials('secrettext')
-    AWS_SECRET_ACCESS_KEY=credentials('secrettext')
+    // AWS_ACCESS_KEY_ID=credentials('secrettext')
+    // AWS_SECRET_ACCESS_KEY=credentials('secrettext')
   }
 
   parameters {
